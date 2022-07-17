@@ -23,7 +23,7 @@ class FormValidation extends Component
     public $submitted = false;
 
     protected $rules = [
-        "name" => "required|min:6",
+        "name" => "required|min:4",
         "email" => "required|email",
         "phone" => "required|regex:/[\+]{0,1}[0-9]{7,15}/",
         "website" => "required|url",
